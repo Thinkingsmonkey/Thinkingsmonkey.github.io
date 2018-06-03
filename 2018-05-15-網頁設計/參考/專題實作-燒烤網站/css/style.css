@@ -1,0 +1,303 @@
+body{
+	margin: 0;
+	font-family: 
+}
+
+html{
+      scroll-behavior: smooth;
+}
+
+p{
+	line-height: 40px;
+}
+
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container{
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.header_container{
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	animation: slider 20s infinite;
+	background-position: left;
+	background-size: cover;
+}
+
+@keyframes slider{
+	0%{background-image: url('../img/dark.jpg');};
+	20%{background-image: url('../img/dark2.jpg');}
+	40%{background-image: url('../img/dark.jpg');}
+	60%{background-image: url('../img/dark.jpg');}
+	80%{background-image: url('../img/dark2.jpg');}
+	100%{background-image: url('../img/dark.jpg');}
+}
+
+.title_section{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+    border-bottom: 1px solid;
+	padding: 5px;
+}
+
+/*header*/
+
+#header{
+	width: 100%;
+	height: 650px;
+	margin-top: 0px;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	transition-duration: 1s;
+	z-index: 999;
+}
+
+.logo{
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	width: 20%;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	top: 10px;
+}
+
+.navbar_list{
+	float: right;
+	position: relative;
+	right: 50px;
+	top: -10px;
+}
+
+.navbar_list ul{
+	padding-top: 20px;
+}
+
+.navbar_list li {
+	float: left;
+	margin-left: 10px;
+	list-style: none;
+}
+
+.navbar_list .boundry:before{
+   content: "|";
+   margin-right: 5px;
+}
+
+.navbar_list li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.navbar_list li a:hover{
+	color: red;
+}
+
+.slogan{
+	position: relative;
+	font-size: 80px;
+	font-weight: 900;
+	top: 530px;
+	left: 100px;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 10px;
+}
+
+/*about_us*/
+
+#about_us{
+	margin: 120px 0px;
+}
+
+.about_us_img{
+	float: left;
+	width: 45%;
+}
+
+.about_us_img img{
+	width: 450px;
+	height: 350px;
+}
+
+.about_us_info{
+	float: left;
+	width: 50%;
+	margin-left: 45px;
+}
+
+
+/*item info*/
+
+#item_intro{
+	background: #0000001c;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.item_intro_block.margin{
+	margin-bottom: 80px;
+}
+
+.item_intro_img, .item_intro_info {
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+}
+
+.item_intro_img img{
+   width: 450px;
+   height: 350px;
+}
+
+.item_intro_img.right img,.item_intro_img.right .item_intro_info.right{
+	float: right;
+}
+
+
+/*fixed_ad*/
+
+#fixed_ad{
+	background-image: url('../img/3438.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 450px;
+}
+
+.fixed_ad_block_up{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.fixed_ad_block_down{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.fixed_ad_block_up .fixed_ad_word{
+	float: left;
+	margin-left: 150px;
+	color: white;
+	font-size: 55px;
+}
+
+.fixed_ad_block_down .fixed_ad_word{
+	float: left;
+	margin-left: 240px;
+	color: white;
+	font-size: 55px;
+}
+
+/*footer*/
+
+#footer{
+	margin-top: 100px;
+}
+
+.footer_img{
+	float: left;
+	width: 300px;
+	margin-left: 22%;
+}
+
+.footer_img.googlemap{
+	margin-left: 40px;
+}
+
+ /*
+ .footer_img img{
+ 	position: absolute;
+ 	left: 0px;
+ 	top: 0px;
+ }
+
+ .footer_img.googlemap img{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+ }
+ */
+
+.footer_img_text{
+	position: absolute;
+	top: 151px;
+	left: 0px;
+}
+
+
+.footer_img_text.left a{
+	text-decoration: none;
+	color: black;
+	background: black;
+	padding: 150px  119px 130px 119px;
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+.footer_img:hover .footer_img_text.left a,.footer_img:hover .footer_img_text.right a{
+	opacity: 0.8;
+	color: white;
+}
+
+.footer_img_text.right{
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+
+.footer_img_text.right a{
+	text-decoration: none;
+	color: black;
+	background: black;
+	padding: 150px 100px 130px 90px;
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+.copyright{
+	display: block;
+	text-align: center;
+	margin-top: 90px;
+}
+
+/*effect*/
+.navbar.active{
+   background: black;
+   opacity: 0.8;
+   color: white;
+}
+
+.animation{
+	
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+
+
+
+

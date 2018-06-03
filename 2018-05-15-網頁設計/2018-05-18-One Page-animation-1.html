@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>	
+	<link rel="stylesheet" href="style/2018-05-18-One Page-animation-1.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="framework/swiper.min.css">
+	<link rel="stylesheet" href="framework/aos.css">
+
+	<style>
+		
+
+		
+
+	</style>
+</head>
+<body>
+	<div id="navbar">
+		<div class="left">
+			<a href="" class="logo"></a>
+		</div>
+		<div class="btn">
+			<ul>
+				<a href=""><h1>理念</h1></li></a>
+				<a href="#news"><h1>消息</h1></a>
+				<a href="#environment"><h1>氛圍</h1></a>
+				<a href="#menu"><h1>美食</h1></a>
+				<a href="#persist"><h1>堅持</h1></a>
+				<a href="#contact"><h1>聯繫</h1></a>
+			</ul>			
+		</div>
+	</div>
+
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slider1"></div>
+            <div class="swiper-slide slider2"></div>
+            <div class="swiper-slide slider3"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+	<div id="news">
+		<div class="bar">
+			<h1 class="title">C</h1>
+			<h1 class="subtitle">創造你的夢想</h1>
+		</div>
+
+		<div class="content_bg">
+			<div class="news_content content">				
+				<div class="demo">  
+				    <div id="tabs3" class="mainNavg">  
+				        <ul>  
+				        	<li id="tab_a-1" onclick="changeTab(1)" class="nowShowA">獨角喜劇</li>	 
+				            <li id="tab_a-2" onclick="changeTab(2)" class="otherA">品讀</li>  
+				            <li id="tab_a-3" onclick="changeTab(3)" class="otherA">創意分享</li>
+				            <li id="tab_a-4" onclick="changeTab(4)" class="otherA">音樂</li>
+				            <li id="tab_a-5" onclick="changeTab(5)" class="otherA">新品體驗</li> 
+				        </ul> 
+				    </div>
+
+				    <div id="tabs-1" class="showTabDiv" style='display:block;'>  
+				         <div class="pic newsstendup"></div>
+				    </div>
+					<div id="tabs-2" class="showTabDiv" style='display:none;float:left;width:100%'>  
+				         <div class="pic newsstudy"></div>
+				    </div>  
+				    <div id="tabs-3" class="showTabDiv" style='display:none;float:left;width:100%'>  
+				         <div class="pic newscreat"></div>
+				    </div>
+				    <div id="tabs-4" class="showTabDiv" style='display:none;float:left;width:100%'>  
+				         <div class="pic newsmusic"></div>
+				    </div> 
+				    <div id="tabs-5" class="showTabDiv" style='display:none;float:left;width:100%'>	
+					    <div class="pic newproduct"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="environment">
+		<div class="bar">
+			<h1 class="title">R.D</h1>
+			<h1 class="subtitle">在輕鬆愉悅的環境</h1>
+		</div>
+
+		<div class="environment_content content">
+			<div class="picbox1">
+				<div data-aos="fade-right" data-aos-offset="100"
+     data-aos-easing="ease-in-sine" class="pic"></div>	
+				<div class="pic_frame"></div>
+			</div>
+			<div class="txtbox1">
+				<div class="environment_title topic_titlebox">~Relax~</div>
+				<div class="environment_subtitle topic_subtitlebox">
+					<p>沉澱心湖</p>		
+				</div>
+				<div class="btn topic_btnbox"></div>
+			</div>
+			<div data-aos="fade-right" data-aos-offset="200"
+     data-aos-easing="ease-in-sine" class="txtbox2">				
+				<div class="environment_title topic_titlebox">~Delight~</div>
+				<div class="environment_subtitle topic_subtitlebox">
+					<p>擁抱夢想</p>
+				</div>
+				<div class="btn topic_btnbox"></div>
+			</div>
+			<div class="picbox2">
+				<div class="pic_frame"></div>
+				<div data-aos="fade-left" data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="pic"></div>	
+			</div>
+		</div>	
+	</div>
+
+
+	<div id="menu">
+		<div class="bar">
+			<h1 class="title">美食</h1>
+			<h1 class="subtitle">由味蕾來激發</h1>
+		</div>
+
+		<div class="menu_content">
+			<div class="picbox">
+				<div class="pic pic_position"></div>
+			</div>
+			<div class="line"></div>
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Coffee</h1>
+				</div>				
+				<div class="menu_subtitle ">每一杯，都是一種生活</div>
+			</div>
+		</div>
+
+		<div class="menu_content">			
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Dessert</h1>					
+				</div>				
+				<div class="menu_subtitle topic_subtitlebox">捕捉它的方式是閉上眼睛</div>
+			</div>
+			<div class="picbox">
+				<div class="pic2 pic_position"></div>
+			</div>
+		</div>
+
+		<div class="menu_content">
+			<div class="picbox">
+				<div class="pic3 pic_position"></div>
+			</div>
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Course</h1>
+				</div>				
+				<div class="menu_subtitle topic_subtitlebox">溫暖，治癒你的心和胃</div>
+			</div>
+		</div>
+
+		<div class="menu_content">			
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Special</h1>
+				</div>
+				<div class="menu_subtitle topic_subtitlebox">眼睛一閃，鼻子一嗅</div>
+			</div>
+			<div class="picbox">
+				<div class="pic4 pic_position"></div>
+			</div>
+		</div>
+
+		<div class="menu_content">
+			<div class="picbox">
+				<div class="pic5 pic_position"></div>
+			</div>
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Wine</h1>
+				</div>				
+				<div class="menu_subtitle topic_subtitlebox">微醺，是為了創造力</div>
+			</div>
+		</div>
+
+		<div class="menu_content">			
+			<div class="txtbox">
+				<div class="menu_title topic_titlebox">
+					<h1>Beverage</h1>
+				</div>
+				<div class="menu_subtitle topic_subtitlebox">在最需要的時刻，在你身旁</div>
+			</div>
+			<div class="picbox">
+				<div class="pic6 pic_position"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="persist">
+		<div class="bar">
+			<h1 class="title">堅持</h1>
+			<h1 class="subtitle">安心.責任</h1>
+		</div>
+
+		<div class="persist_coffee content">
+			<div class="txtbox topic_titlebox">咖啡</div>
+			<div class="picbox_bg">
+				<div class="picbox">
+					<div class="pic_title topic_titlebox">STEAMPUNK
+					</div>
+					<div class="pic_subtitle topic_subtitlebox">
+						<p>
+							Hybrid的概念，加上極具工業風的外型，集手沖、虹吸和法式濾壓三種手法於一身。
+						</p>
+						<p>
+							細膩的記憶各種沖煮法過程所需動作的多組參數，讓您每次享有相同的口感。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="persist_roaster content">
+			<div class="picbox">
+				<div class="pic"></div>
+			</div>
+			<div class="txtbox">
+				<div class="title topic_titlebox">烘豆</div>
+				<div class="subtitle topic_subtitlebox">
+					<p>
+						Diedrich烘豆機採用紅外線加熱的原理，熱交換器吸收絕大部份的紅外線熱能，使得加熱平均。
+					</p>
+					<p>
+						均勺熱風更是最佳烘焙的熱源，穩定性極高，讓每一粒咖啡豆都能呈現最美好的風味。
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="persist_ingredints1 content">
+			<div class="ingredints1_title topic_titlebox">
+				<h1>食材</h1>
+			</div>
+			<div class="picbox">
+				<div class="pic"></div>
+			</div>
+			<div class="txtbox">
+				<div class="title">
+					<p>UTZ 認證</p>
+				</div>				
+				<div class="subtitle ">
+					<div class="line"></div>
+					<p>更好的環境、更好的生活<p>期望為世界帶來美好改變</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="persist_ingredints2 content">
+			<div class="picbox1">
+				<div class="pic"></div>
+			</div>
+			<div class="picbox2">
+				<div class="pic"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="contact">
+		<div class="bar">
+			<h1 class="title">聯繫</h1>
+			<h1 class="subtitle">美好從此開始</h1>	
+		</div>
+
+		<div class="contact_content content">
+
+			<div class="mapbox">
+				<div class="title topic_titlebox">
+					<i class="fas fa-globe"></i>
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14459.29171280783!2d121.5119547!3d25.0400826!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2876dc1b4d647f9!2z5Lit6I-v5rCR5ZyL57i957Wx5bqc!5e0!3m2!1szh-TW!2stw!4v1526533275926" width="400px" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="information">
+				<div class="title topic_titlebox">
+					<i class="fas fa-link"></i>
+				</div>
+				<div class="linksubtitle topic_subtitlebox">
+					<a href="" >
+						<i class="fab fa-google-plus-g google fa-lg"></i>
+					</a>
+					<a href="">
+						<i class="fab fa-instagram fa-lg"></i>
+					</a>
+					<a href="">
+						<i class="fab fa-facebook-square fa-lg"></i>
+					</a>
+					<a href="">
+						<i class="fab fa-youtube fa-lg"></i>
+					</a>				
+					
+				</div>
+				<div class="title topic_titlebox">
+					<i class="fas fa-phone-square"></i>
+				</div>
+				<div class="subtitle topic_subtitlebox">
+					<p>02-25227583</p>
+				</div>
+				<div class="title topic_titlebox">
+					<i class="fas fa-clock"></i>
+				</div>
+				<div class="subtitle topic_subtitlebox">
+					<p>pm: 3:00 ~ pm: 9:00</p>
+				</div>
+				<div class="title topic_titlebox">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<div class="subtitle topic_subtitlebox">
+					<p>台北市中正區重慶南路一段122號</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+
+  <script src="framework/aos.js"></script>
+  <script src="framework/swiper.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+
+        AOS.init();
+    </script>
+
+    <script>
+	function changeTab(index)  
+	{  
+	    document.getElementById("tabs-"+index).style.display="block";     
+	    document.getElementById("tab_a-"+index).className="nowShowA";  
+	    var i=1;  
+	    while(document.getElementById("tabs-"+i))  
+	    {  
+	        if(i!=index){  
+	        clearDisplay(i);  
+	        document.getElementById("tab_a-"+i).className="otherA";  
+	        }  
+	        i++;  
+	    }  
+	}  
+	function clearDisplay(index)  
+	{  
+	    document.getElementById("tabs-"+index).style.display="none";  
+	}  
+</script>
+</body>
+</html>
